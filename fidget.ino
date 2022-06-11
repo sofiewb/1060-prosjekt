@@ -16,6 +16,7 @@ int led = 8;
 
 void setup()
 {
+  // Definerer pinMode for de ulkike komponentene 
   pinMode(knapp1, INPUT_PULLUP);
   pinMode(vibrering1, OUTPUT);
   pinMode(knapp2, INPUT_PULLUP);
