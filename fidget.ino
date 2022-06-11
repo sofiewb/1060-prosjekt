@@ -16,7 +16,7 @@ int led = 8;
 
 void setup()
 {
-  // Definerer pinMode for de ulkike komponentene 
+  // Definerer pinMode for de ulkike komponentene
   pinMode(knapp1, INPUT_PULLUP);
   pinMode(vibrering1, OUTPUT);
   pinMode(knapp2, INPUT_PULLUP);
@@ -29,6 +29,7 @@ void setup()
 
 void loop()
 {
+  //Sjekker om noen av knappene blir tykket på
   vibreringstrykk(knapp1, vibrering1);
   vibreringstrykk(knapp2, vibrering2);
   vibreringstrykk(knapp3, vibrering3);
